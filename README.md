@@ -29,7 +29,9 @@ secserv   172.30.10.97:5000/project-name/secserv   latest    About an hour ago
 
 
 11. $ oc new-app secserv
-12. Alternatively you can use this $oc new-app secserv -o yaml > myapp.yaml and then $oc create -f myapp.yaml
+12.  Alternatively you can use this $oc new-app secserv -o yaml > myapp.yaml and then $oc create -f myapp.yaml
+
+
 
 ___________________________________
 ___________________________________
