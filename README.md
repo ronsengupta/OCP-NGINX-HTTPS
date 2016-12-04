@@ -22,7 +22,11 @@ $ docker run -d --name ronsec secserv
 9. $ docker push 172.30.10.97:5000/project-name/secserv:latest
 
 10. [vagrant@rhel-cdk nginx]$ oc get is
+
+
 NAME      DOCKER REPO                       TAGS      UPDATED
 secserv   172.30.10.97:5000/project-name/secserv   latest    About an hour ago
 
+
 11. $ oc new-app secserv
+12. Alternatively you can use this $oc new-app secserv -o yaml > myapp.yaml and then $oc create -f myapp.yaml
